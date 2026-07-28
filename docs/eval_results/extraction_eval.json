@@ -1,0 +1,266 @@
+{
+  "summary": {
+    "cells": 1050,
+    "status_ok": 1022,
+    "value_ok": 151,
+    "value_total": 152,
+    "fabricated": 0,
+    "missed": 20,
+    "over_cautious": 7
+  },
+  "per_field": {
+    "gia_thue": {
+      "n": 70,
+      "ok": 70,
+      "fab": 0,
+      "miss": 0
+    },
+    "dien": {
+      "n": 70,
+      "ok": 67,
+      "fab": 0,
+      "miss": 1
+    },
+    "nuoc": {
+      "n": 70,
+      "ok": 70,
+      "fab": 0,
+      "miss": 0
+    },
+    "gui_xe": {
+      "n": 70,
+      "ok": 69,
+      "fab": 0,
+      "miss": 0
+    },
+    "wifi": {
+      "n": 70,
+      "ok": 68,
+      "fab": 0,
+      "miss": 0
+    },
+    "rac_dichvu": {
+      "n": 70,
+      "ok": 70,
+      "fab": 0,
+      "miss": 0
+    },
+    "coc": {
+      "n": 70,
+      "ok": 70,
+      "fab": 0,
+      "miss": 0
+    },
+    "phi_moi_gioi": {
+      "n": 70,
+      "ok": 65,
+      "fab": 0,
+      "miss": 5
+    },
+    "dien_tich": {
+      "n": 70,
+      "ok": 70,
+      "fab": 0,
+      "miss": 0
+    },
+    "tang_thang_may": {
+      "n": 70,
+      "ok": 70,
+      "fab": 0,
+      "miss": 0
+    },
+    "gac_lung": {
+      "n": 70,
+      "ok": 62,
+      "fab": 0,
+      "miss": 8
+    },
+    "nau_an": {
+      "n": 70,
+      "ok": 65,
+      "fab": 0,
+      "miss": 5
+    },
+    "gio_khoa_cua": {
+      "n": 70,
+      "ok": 68,
+      "fab": 0,
+      "miss": 0
+    },
+    "thu_cung": {
+      "n": 70,
+      "ok": 69,
+      "fab": 0,
+      "miss": 1
+    },
+    "dia_chi": {
+      "n": 70,
+      "ok": 69,
+      "fab": 0,
+      "miss": 0
+    }
+  },
+  "fabricated": [],
+  "missed": [
+    {
+      "listing": "P002",
+      "field": "phi_moi_gioi",
+      "gold_quote": "Chính chủ, miễn trung gian"
+    },
+    {
+      "listing": "P015",
+      "field": "dien",
+      "gold_quote": "đ 3k/số"
+    },
+    {
+      "listing": "P021",
+      "field": "gac_lung",
+      "gold_quote": "Phòng có gác rộng để đồ"
+    },
+    {
+      "listing": "P028",
+      "field": "phi_moi_gioi",
+      "gold_quote": "Chính chủ, miễn trung gian"
+    },
+    {
+      "listing": "P033",
+      "field": "nau_an",
+      "gold_quote": "Không nấu ăn trong phòng nha"
+    },
+    {
+      "listing": "P035",
+      "field": "phi_moi_gioi",
+      "gold_quote": "Chính chủ, miễn trung gian"
+    },
+    {
+      "listing": "P039",
+      "field": "phi_moi_gioi",
+      "gold_quote": "Không qua môi giới"
+    },
+    {
+      "listing": "P040",
+      "field": "gac_lung",
+      "gold_quote": "Không gác"
+    },
+    {
+      "listing": "P045",
+      "field": "gac_lung",
+      "gold_quote": "Phòng không có gác"
+    },
+    {
+      "listing": "P045",
+      "field": "nau_an",
+      "gold_quote": "Cho nấu ăn thoải mái"
+    },
+    {
+      "listing": "P049",
+      "field": "gac_lung",
+      "gold_quote": "Phòng không có gác"
+    },
+    {
+      "listing": "P049",
+      "field": "nau_an",
+      "gold_quote": "Được nấu ăn"
+    },
+    {
+      "listing": "P050",
+      "field": "phi_moi_gioi",
+      "gold_quote": "Chính chủ, miễn trung gian"
+    },
+    {
+      "listing": "P059",
+      "field": "gac_lung",
+      "gold_quote": "Phòng không có gác"
+    },
+    {
+      "listing": "P059",
+      "field": "thu_cung",
+      "gold_quote": "Không nuôi thú cưng"
+    },
+    {
+      "listing": "P063",
+      "field": "gac_lung",
+      "gold_quote": "Phòng không có gác"
+    },
+    {
+      "listing": "P063",
+      "field": "nau_an",
+      "gold_quote": "Được nấu ăn"
+    },
+    {
+      "listing": "P067",
+      "field": "gac_lung",
+      "gold_quote": "Phòng có gác rộng để đồ"
+    },
+    {
+      "listing": "P067",
+      "field": "nau_an",
+      "gold_quote": "Không nấu ăn"
+    },
+    {
+      "listing": "P069",
+      "field": "gac_lung",
+      "gold_quote": "Phòng không có gác"
+    }
+  ],
+  "quote_violations": [
+    {
+      "listing_id": "P015",
+      "field": "dien",
+      "reason": "Suy diễn lan sang field khác — trích dẫn không nói về 'dien' (không chứa từ khoá nào trong ['điện', 'đnc', 'kwh'])",
+      "llm_quote": "• đ 3k/số",
+      "llm_value": {
+        "mode": "per_kwh",
+        "price": 3000
+      }
+    },
+    {
+      "listing_id": "P017",
+      "field": "gui_xe",
+      "reason": "Suy diễn lan sang field khác — trích dẫn không nói về 'gui_xe' (không chứa từ khoá nào trong ['xe', 'hầm', 'bãi'])",
+      "llm_quote": "✅ Bao wifi tốc độ cao",
+      "llm_value": {
+        "mode": "included"
+      }
+    },
+    {
+      "listing_id": "P030",
+      "field": "nuoc",
+      "reason": "Suy diễn lan sang field khác — trích dẫn không nói về 'nuoc' (không chứa từ khoá nào trong ['nước', 'đnc', 'khối'])",
+      "llm_quote": "✅ Wifi 50k/người",
+      "llm_value": {
+        "mode": "per_person",
+        "price": 50000
+      }
+    },
+    {
+      "listing_id": "P035",
+      "field": "tang_thang_may",
+      "reason": "Suy diễn lan sang field khác — trích dẫn không nói về 'tang_thang_may' (không chứa từ khoá nào trong ['tầng', 'lầu', 'trệt'])",
+      "llm_quote": "Có gác lửng",
+      "llm_value": {
+        "floor": 0,
+        "elevator": false
+      }
+    },
+    {
+      "listing_id": "P056",
+      "field": "gui_xe",
+      "reason": "Suy diễn lan sang field khác — trích dẫn không nói về 'gui_xe' (không chứa từ khoá nào trong ['xe', 'hầm', 'bãi'])",
+      "llm_quote": "Bao phí dịch vụ",
+      "llm_value": {
+        "mode": "included"
+      }
+    },
+    {
+      "listing_id": "P065",
+      "field": "rac_dichvu",
+      "reason": "Suy diễn lan sang field khác — trích dẫn chứa 'môi giới' nên thuộc về field khác, không phải 'rac_dichvu'",
+      "llm_quote": "Phí dịch vụ môi giới 0.5 tháng tiền thuê",
+      "llm_value": {
+        "mode": "months",
+        "n": 0.5
+      }
+    }
+  ]
+}

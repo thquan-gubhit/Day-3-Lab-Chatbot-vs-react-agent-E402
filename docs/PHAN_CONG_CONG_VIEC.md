@@ -8,13 +8,20 @@
 
 | Vai trò (Role)                               | File đảm nhận           | Nhiệm vụ chính                                                                                          | Người đảm nhận  |
 | :-------------------------------------------- | :------------------------- | :--------------------------------------------------------------------------------------------------------- | :------------------- |
-| **Role 1: Product Architect**           | `config/test_cases.json` | Định hướng bài toán & soạn bộ câu test case                                                       | `________________` |
-| **Role 2: Tool Engineer**               | `src/tools.py`           | Định nghĩa các công cụ (Tools) cho Agent                                                             | `________________` |
-| **Role 3: Prompt Engineer**             | `src/prompts.py`         | Viết ReAct System Prompt & phanh Guardrails                                                               | `________________` |
-| **Role 4: Core Developer / Integrator** | `src/app.py`             | **Đầu mối kéo code/file của nhóm (`git pull`), Vibe Code lắp ráp thành App hoàn chỉnh** | `________________` |
-| **Role 5: Observability**               | `docs/trace_eval.md`     | Lập bảng Scoring Matrix & Soi nhật ký Trace Log                                                        | `________________` |
+| **Role 1: Product Architect**           | `config/test_cases.json` | Định hướng bài toán & soạn bộ câu test case                                                       | **Trần Hoàng Quân** – 2A202601805 |
+| **Role 2: Tool Engineer**               | `src/tools.py`           | Định nghĩa các công cụ (Tools) cho Agent                                                             | **Lê Minh Khiêm** – 2A202601645 |
+| **Role 3: Prompt Engineer**             | `src/prompts.py`         | Viết ReAct System Prompt & phanh Guardrails                                                               | **Đinh Huy Mạnh** – 2A202601677 |
+| **Role 4: Core Developer / Integrator** | `src/app.py`             | **Đầu mối kéo code/file của nhóm (`git pull`), Vibe Code lắp ráp thành App hoàn chỉnh** | **Nguyễn Quang Hưng** – 2A202601523 |
+| **Role 5: Observability**               | `docs/trace_eval.md`     | Lập bảng Scoring Matrix & Soi nhật ký Trace Log                                                        | **Nguyễn Quang Hưng** – 2A202601523 *(kiêm)* |
 
 *Note: Nếu nhóm 6 người, Role 5 tách thành 5A (Trace Analyst) và 5B (Flowchart Architect).*
+
+> **Ghi chú phân công thực tế của nhóm E402 (4 người / 5 role):**
+> Nhóm chỉ có 4 thành viên nên Role 4 kiêm Role 5 — hợp lý vì người lắp ráp app
+> cũng là người có đủ ngữ cảnh để đọc trace log. Cách chia này tiếp nối đúng vai
+> trò từng người ở Lab Day 02: Quân sở hữu bài toán (Role 1), Khiêm phụ trách
+> kiểm chứng dữ liệu (Role 2), Mạnh phụ trách research & ràng buộc (Role 3),
+> Hưng điều phối và chốt phạm vi (Role 4+5).
 
 > 🌟 **VAI TRÒ NÒNG NỐT CỦA ROLE 4 (ĐẦU MỐI LẮP RÁP APP HOÀN CHỈNH)**:
 >
