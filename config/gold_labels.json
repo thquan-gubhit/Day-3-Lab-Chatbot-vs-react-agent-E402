@@ -1,0 +1,5340 @@
+{
+  "P001": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4000000
+      },
+      "quote": "Thuê: 4tr"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Phòng có gác rộng để đồ"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "80 Nguyễn Thiện Thuật, Quận 3",
+        "lat": 10.778031614328777,
+        "lng": 106.69422729947738
+      },
+      "quote": "Địa chỉ: 80 Nguyễn Thiện Thuật, Quận 3"
+    }
+  },
+  "P002": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3200000
+      },
+      "quote": "Thuê: 3tr2"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 4500
+      },
+      "quote": "đ 4.5k/số"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_m3",
+        "price": 25000
+      },
+      "quote": "Nước 25k/m3"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 120000
+      },
+      "quote": "Gửi xe 120k/tháng"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 40000
+      },
+      "quote": "Rác 40k/tháng"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 2
+      },
+      "quote": "Cọc 2 tháng là dọn vào ở"
+    },
+    "phi_moi_gioi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "none"
+      },
+      "quote": "Chính chủ, miễn trung gian"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "Phòng 15m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nuôi pet"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Cách ĐH Sư phạm TP.HCM vài phút",
+        "near": "ĐH Sư phạm TP.HCM"
+      },
+      "quote": "Cách ĐH Sư phạm TP.HCM vài phút"
+    }
+  },
+  "P003": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4500000
+      },
+      "quote": "Giá 4tr5 bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Phòng 20m²"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 4"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Phòng có gác rộng để đồ"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Ngay khu Chợ Bến Thành, đi bộ tới trường",
+        "near": "Chợ Bến Thành"
+      },
+      "quote": "Ngay khu Chợ Bến Thành, đi bộ tới trường"
+    }
+  },
+  "P004": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3500000
+      },
+      "quote": "Giá 3tr5 bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_m3",
+        "price": 18000
+      },
+      "quote": "Nước 18k/khối"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Phòng 20m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Tự do giờ giấc, có vân tay"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "253 D2, Bình Thạnh",
+        "lat": 10.785022454298039,
+        "lng": 106.6980035117611
+      },
+      "quote": "Ở 253 D2 (Bình Thạnh), hẻm xe hơi"
+    }
+  },
+  "P005": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 4"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "143 Cách Mạng Tháng 8, Quận 10",
+        "lat": 10.773334374344124,
+        "lng": 106.66484344195284
+      },
+      "quote": "Ở 143 Cách Mạng Tháng 8 (Quận 10), hẻm xe hơi"
+    }
+  },
+  "P006": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Thuê: 5tr"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Phòng có gác rộng để đồ"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Ngay khu ĐH Khoa học Tự nhiên, đi bộ tới trường",
+        "near": "ĐH Khoa học Tự nhiên"
+      },
+      "quote": "Ngay khu ĐH Khoa học Tự nhiên, đi bộ tới trường"
+    }
+  },
+  "P007": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5500000
+      },
+      "quote": "Giá chỉ 5.500.000đ/tháng"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện nước giá dân"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện nước giá dân"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "Rộng 15 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 5"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nấu ăn thoải mái"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h",
+        "free": false
+      },
+      "quote": "Cổng đóng 23h"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi thú cưng"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "43 Nguyễn Kiệm, Phú Nhuận",
+        "lat": 10.808436192364297,
+        "lng": 106.69150530890828
+      },
+      "quote": "Ở 43 Nguyễn Kiệm (Phú Nhuận), hẻm xe hơi"
+    }
+  },
+  "P008": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3500000
+      },
+      "quote": "Giá 3tr5 bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Có khu bếp riêng, nấu ăn được"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Không giới nghiêm"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "23 Kha Vạn Cân, Thủ Đức",
+        "lat": 10.881050896807576,
+        "lng": 106.7811295391224
+      },
+      "quote": "23 Kha Vạn Cân, Thủ Đức"
+    }
+  },
+  "P009": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4500000
+      },
+      "quote": "4tr5/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 30
+      },
+      "quote": "Rộng 30 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác lửng"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Cấm nấu nướng trong phòng"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "0h",
+        "free": false
+      },
+      "quote": "Cổng đóng 0h"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "226 Điện Biên Phủ, Quận 3",
+        "lat": 10.775366759754032,
+        "lng": 106.68522595593244
+      },
+      "quote": "Địa chỉ: 226 Điện Biên Phủ, Quận 3"
+    }
+  },
+  "P010": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3000000
+      },
+      "quote": "Giá 3tr bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Phòng 22m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "139 Nguyễn Trãi, Quận 5",
+        "lat": 10.758972307854204,
+        "lng": 106.65330971931584
+      },
+      "quote": "Địa chỉ: 139 Nguyễn Trãi, Quận 5"
+    }
+  },
+  "P011": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3800000
+      },
+      "quote": "Giá thuê 3tr8/th"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 4000
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 100000
+      },
+      "quote": "Xe máy 100k/xe/tháng"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 25
+      },
+      "quote": "Phòng 25m²"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 5"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h",
+        "free": false
+      },
+      "quote": "Khoá cửa lúc 23h"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "47 Trường Chinh, Tân Bình",
+        "lat": 10.782622801345608,
+        "lng": 106.64329690887607
+      },
+      "quote": "Địa chỉ: 47 Trường Chinh, Tân Bình"
+    }
+  },
+  "P012": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3800000
+      },
+      "quote": "Thuê: 3tr8"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 100000
+      },
+      "quote": "Wifi 100k/người"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 1,
+        "elevator": true
+      },
+      "quote": "Tầng 1, có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "205 D2, Bình Thạnh",
+        "lat": 10.78700713348214,
+        "lng": 106.71324588578909
+      },
+      "quote": "Ở 205 D2 (Bình Thạnh), hẻm xe hơi"
+    }
+  },
+  "P013": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3200000
+      },
+      "quote": "Giá chỉ 3.200.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Rộng 20 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 2,
+        "elevator": true
+      },
+      "quote": "Lầu 2 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h",
+        "free": false
+      },
+      "quote": "Giờ giấc tự do đến 23h"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi thú cưng"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "195 Sư Vạn Hạnh, Quận 10",
+        "lat": 10.769027817260843,
+        "lng": 106.67398643297035
+      },
+      "quote": "Ở 195 Sư Vạn Hạnh (Quận 10), hẻm xe hơi"
+    }
+  },
+  "P014": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "Rộng 15 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 3,
+        "elevator": true
+      },
+      "quote": "Lầu 3 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Gần Landmark 81",
+        "near": "Landmark 81"
+      },
+      "quote": "Gần Landmark 81"
+    }
+  },
+  "P015": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3500000
+      },
+      "quote": "Giá: 3tr5/tháng"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 3000
+      },
+      "quote": "đ 3k/số"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 2
+      },
+      "quote": "Cọc 2 tháng"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "Phòng 15m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "22h30",
+        "free": false
+      },
+      "quote": "Khoá cửa lúc 22h30"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Gần ĐH Bách Khoa TP.HCM",
+        "near": "ĐH Bách Khoa TP.HCM"
+      },
+      "quote": "Gần ĐH Bách Khoa TP.HCM"
+    }
+  },
+  "P016": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3500000
+      },
+      "quote": "Giá thuê 3tr5/th"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 4000
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Để xe miễn phí trong nhà"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "DT: 15m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": true
+      },
+      "quote": "Lầu 5 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "87 Đặng Văn Bi, Thủ Đức",
+        "lat": 10.859412252527921,
+        "lng": 106.77827407030027
+      },
+      "quote": "Ở 87 Đặng Văn Bi (Thủ Đức), hẻm xe hơi"
+    }
+  },
+  "P017": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá 5tr bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "đnc theo đồng hồ"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "đnc theo đồng hồ"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Diện tích 28m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "157 Điện Biên Phủ, Quận 3",
+        "lat": 10.7619738590434,
+        "lng": 106.68439307099635
+      },
+      "quote": "157 Điện Biên Phủ, Quận 3"
+    }
+  },
+  "P018": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2800000
+      },
+      "quote": "Giá thuê 2tr8/th"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "đnc theo đồng hồ"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "đnc theo đồng hồ"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Wifi miễn phí"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Rộng 28 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": false
+      },
+      "quote": "Lầu 5 (không thang máy)"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nấu ăn thoải mái"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Không giới nghiêm"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi chó mèo"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Ngay khu Landmark 81, đi bộ tới trường",
+        "near": "Landmark 81"
+      },
+      "quote": "Ngay khu Landmark 81, đi bộ tới trường"
+    }
+  },
+  "P019": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2200000
+      },
+      "quote": "Giá thuê 2tr2/th"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao trọn gói điện nước"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao trọn gói điện nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 50000
+      },
+      "quote": "Wifi 50k/người"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Diện tích 22m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 3,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 3"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nấu ăn thoải mái"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Không giới nghiêm"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Cách Landmark 81 vài phút",
+        "near": "Landmark 81"
+      },
+      "quote": "Cách Landmark 81 vài phút"
+    }
+  },
+  "P020": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4500000
+      },
+      "quote": "Giá 4tr5 bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 4500
+      },
+      "quote": "Điện 4.5 nghìn 1 số"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 40000
+      },
+      "quote": "Phí dịch vụ 40k/th"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Diện tích 20m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "0h",
+        "free": false
+      },
+      "quote": "Cổng đóng 0h"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "187 Nguyễn Cửu Vân, Bình Thạnh",
+        "lat": 10.780724345001124,
+        "lng": 106.70769606456284
+      },
+      "quote": "Ở 187 Nguyễn Cửu Vân (Bình Thạnh), hẻm xe hơi"
+    }
+  },
+  "P021": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3000000
+      },
+      "quote": "Giá 3tr bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 3500
+      },
+      "quote": "Điện: 3.5.000đ/kWh theo đồng hồ riêng"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_person",
+        "price": 120000
+      },
+      "quote": "Nước 120k/người"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 150000
+      },
+      "quote": "Giữ xe 150k"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 80000
+      },
+      "quote": "Wifi 80k/phòng"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 20000
+      },
+      "quote": "Phí dịch vụ 20k/th"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 1
+      },
+      "quote": "Đặt cọc 1 tháng tiền phòng"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Rộng 28 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": true
+      },
+      "quote": "Tầng 4, có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Phòng có gác rộng để đồ"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "195 Tô Hiến Thành, Quận 10",
+        "lat": 10.774861172629723,
+        "lng": 106.67617232031749
+      },
+      "quote": "Ở 195 Tô Hiến Thành (Quận 10), hẻm xe hơi"
+    }
+  },
+  "P022": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá thuê 5tr/th"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện giá nhà nước"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 1
+      },
+      "quote": "Cọc 1 tháng"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 1,
+        "elevator": true
+      },
+      "quote": "Lầu 1 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác đúc"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Có khu bếp riêng, nấu ăn được"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "170 Phan Văn Trị, Gò Vấp",
+        "lat": 10.831486363582826,
+        "lng": 106.65655348376825
+      },
+      "quote": "Địa chỉ: 170 Phan Văn Trị, Gò Vấp"
+    }
+  },
+  "P023": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 3,
+        "elevator": false
+      },
+      "quote": "Lầu 3 (không thang máy)"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác đúc"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Cấm nấu nướng trong phòng"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "22h30",
+        "free": false
+      },
+      "quote": "Khoá cửa lúc 22h30"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "206 Phan Xích Long, Phú Nhuận",
+        "lat": 10.800988568016086,
+        "lng": 106.68512305556546
+      },
+      "quote": "Ở 206 Phan Xích Long (Phú Nhuận), hẻm xe hơi"
+    }
+  },
+  "P024": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5500000
+      },
+      "quote": "Thuê: 5tr5"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "Phòng 15m²"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": true
+      },
+      "quote": "Tầng 5, có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nấu ăn trong phòng nha"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "58 Tô Vĩnh Diện, Thủ Đức",
+        "lat": 10.867198275035333,
+        "lng": 106.77824908721632
+      },
+      "quote": "58 Tô Vĩnh Diện, Thủ Đức"
+    }
+  },
+  "P025": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá chỉ 5.000.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 3,
+        "elevator": false
+      },
+      "quote": "Tầng 3, đi bộ"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Phòng có gác rộng để đồ"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "188 Điện Biên Phủ, Quận 3",
+        "lat": 10.777821276082406,
+        "lng": 106.69020989168969
+      },
+      "quote": "Địa chỉ: 188 Điện Biên Phủ, Quận 3"
+    }
+  },
+  "P026": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 6000000
+      },
+      "quote": "Giá chỉ 6.000.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 2
+      },
+      "quote": "Đặt cọc 2 tháng tiền phòng"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác đúc"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "249 An Dương Vương, Quận 5",
+        "lat": 10.742528485878141,
+        "lng": 106.67289781611602
+      },
+      "quote": "Ở 249 An Dương Vương (Quận 5), hẻm xe hơi"
+    }
+  },
+  "P027": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 6000000
+      },
+      "quote": "Giá thuê 6tr/th"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 60000
+      },
+      "quote": "Wifi 60k/phòng"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Diện tích 22m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 2,
+        "elevator": false
+      },
+      "quote": "Lầu 2 (không thang máy)"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "136 Lý Thường Kiệt, Tân Bình",
+        "lat": 10.795992059943353,
+        "lng": 106.65442995953882
+      },
+      "quote": "Ở 136 Lý Thường Kiệt (Tân Bình), hẻm xe hơi"
+    }
+  },
+  "P028": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2200000
+      },
+      "quote": "2tr2/tháng"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện giá nhà nước"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Miễn phí rác"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "none"
+      },
+      "quote": "Chính chủ, miễn trung gian"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Diện tích 28m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": true
+      },
+      "quote": "Tầng 4, có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nuôi pet"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Gần ĐH Y Dược TP.HCM",
+        "near": "ĐH Y Dược TP.HCM"
+      },
+      "quote": "Gần ĐH Y Dược TP.HCM"
+    }
+  },
+  "P029": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3000000
+      },
+      "quote": "Giá chỉ 3.000.000đ/tháng"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Điện nước tính theo công tơ riêng"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Điện nước tính theo công tơ riêng"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Phòng 20m²"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": true
+      },
+      "quote": "Tầng 4, có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi chó mèo"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "78 Tô Hiến Thành, Quận 10",
+        "lat": 10.775420860117748,
+        "lng": 106.66009264984527
+      },
+      "quote": "Địa chỉ: 78 Tô Hiến Thành, Quận 10"
+    }
+  },
+  "P030": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2200000
+      },
+      "quote": "Giá 2tr2 bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 50000
+      },
+      "quote": "Wifi 50k/người"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Tự do giờ giấc, có vân tay"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Ngay khu ĐH Ngoại thương CS2, đi bộ tới trường",
+        "near": "ĐH Ngoại thương CS2"
+      },
+      "quote": "Ngay khu ĐH Ngoại thương CS2, đi bộ tới trường"
+    }
+  },
+  "P031": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Điện nước tính theo công tơ riêng"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Điện nước tính theo công tơ riêng"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 60000
+      },
+      "quote": "Wifi 60k/phòng"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Phòng 22m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "251 Trần Huy Liệu, Phú Nhuận",
+        "lat": 10.810747312759219,
+        "lng": 106.67016537711106
+      },
+      "quote": "251 Trần Huy Liệu, Phú Nhuận"
+    }
+  },
+  "P032": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 6000000
+      },
+      "quote": "6tr/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Miễn phí rác"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 4"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "22h30",
+        "free": false
+      },
+      "quote": "Khoá cửa lúc 22h30"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "138 Hoàng Diệu 2, Thủ Đức",
+        "lat": 10.86134234576208,
+        "lng": 106.80049657246224
+      },
+      "quote": "138 Hoàng Diệu 2, Thủ Đức"
+    }
+  },
+  "P033": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá: 5tr/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_person",
+        "price": 100000
+      },
+      "quote": "nước 100k/ng"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nấu ăn trong phòng nha"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "158 Nguyễn Thiện Thuật, Quận 3",
+        "lat": 10.7723251536707,
+        "lng": 106.67567108665126
+      },
+      "quote": "Địa chỉ: 158 Nguyễn Thiện Thuật, Quận 3"
+    }
+  },
+  "P034": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3000000
+      },
+      "quote": "3tr/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Rộng 28 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 5"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác đúc"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "179 Nguyễn Trãi, Quận 5",
+        "lat": 10.75665369124547,
+        "lng": 106.6672399205342
+      },
+      "quote": "179 Nguyễn Trãi, Quận 5"
+    }
+  },
+  "P035": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2500000
+      },
+      "quote": "Giá: 2tr5/tháng"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 3500
+      },
+      "quote": "Điện 3.5 nghìn 1 số"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Wifi miễn phí"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "none"
+      },
+      "quote": "Chính chủ, miễn trung gian"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 35
+      },
+      "quote": "Phòng 35m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác lửng"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nấu ăn thoải mái"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h",
+        "free": false
+      },
+      "quote": "Cổng đóng 23h"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Ngay khu ĐH Khoa học Tự nhiên, đi bộ tới trường",
+        "near": "ĐH Khoa học Tự nhiên"
+      },
+      "quote": "Ngay khu ĐH Khoa học Tự nhiên, đi bộ tới trường"
+    }
+  },
+  "P036": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5500000
+      },
+      "quote": "Thuê: 5tr5"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Diện tích 22m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi chó mèo"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "101 Phan Văn Hân, Bình Thạnh",
+        "lat": 10.800384090121431,
+        "lng": 106.71569061891879
+      },
+      "quote": "Ở 101 Phan Văn Hân (Bình Thạnh), hẻm xe hơi"
+    }
+  },
+  "P037": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3500000
+      },
+      "quote": "3tr5/tháng"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Miễn phí: Điện, nước, để xe máy, wifi, rác, vệ sinh"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Miễn phí: Điện, nước, để xe máy, wifi, rác, vệ sinh"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Miễn phí: Điện, nước, để xe máy, wifi, rác, vệ sinh"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Miễn phí: Điện, nước, để xe máy, wifi, rác, vệ sinh"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Miễn phí: Điện, nước, để xe máy, wifi, rác, vệ sinh"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 30
+      },
+      "quote": "DT: 30m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "125 Sư Vạn Hạnh, Quận 10",
+        "lat": 10.78523141500306,
+        "lng": 106.66572005859399
+      },
+      "quote": "Địa chỉ: 125 Sư Vạn Hạnh, Quận 10"
+    }
+  },
+  "P038": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3000000
+      },
+      "quote": "Giá: 3tr/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 50000
+      },
+      "quote": "Wifi 50k/phòng"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 30
+      },
+      "quote": "Rộng 30 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nấu ăn trong phòng nha"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi thú cưng"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "227 Lê Đức Thọ, Gò Vấp",
+        "lat": 10.827557344389712,
+        "lng": 106.65470824240003
+      },
+      "quote": "Địa chỉ: 227 Lê Đức Thọ, Gò Vấp"
+    }
+  },
+  "P039": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3200000
+      },
+      "quote": "Giá 3tr2 bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 3000
+      },
+      "quote": "đ 3k/số"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free nước"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 200000
+      },
+      "quote": "Gửi xe 200k/tháng"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 40000
+      },
+      "quote": "Rác 40k/tháng"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 1
+      },
+      "quote": "Cọc 1 tháng là dọn vào ở"
+    },
+    "phi_moi_gioi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "none"
+      },
+      "quote": "Không qua môi giới"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 35
+      },
+      "quote": "Phòng 35m²"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": true
+      },
+      "quote": "Lầu 5 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "249 Phan Xích Long, Phú Nhuận",
+        "lat": 10.796341184744772,
+        "lng": 106.66854424695947
+      },
+      "quote": "249 Phan Xích Long, Phú Nhuận"
+    }
+  },
+  "P040": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3500000
+      },
+      "quote": "Giá chỉ 3.500.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 100000
+      },
+      "quote": "Internet 100k/tháng"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Diện tích 20m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "166 Đặng Văn Bi, Thủ Đức",
+        "lat": 10.873836957756128,
+        "lng": 106.7796246960225
+      },
+      "quote": "Địa chỉ: 166 Đặng Văn Bi, Thủ Đức"
+    }
+  },
+  "P041": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá chỉ 5.000.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 100000
+      },
+      "quote": "Xe máy 100k/xe/tháng"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 60000
+      },
+      "quote": "Wifi 60k/người"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 2
+      },
+      "quote": "Cọc 2 tháng"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 18
+      },
+      "quote": "Diện tích 18m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 1,
+        "elevator": true
+      },
+      "quote": "Tầng 1, có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Không giới nghiêm"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "162 Nguyễn Thiện Thuật, Quận 3",
+        "lat": 10.762783612934092,
+        "lng": 106.68128416150695
+      },
+      "quote": "162 Nguyễn Thiện Thuật, Quận 3"
+    }
+  },
+  "P042": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Giờ giấc tự do 24/24"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "191 Hùng Vương, Quận 5",
+        "lat": 10.75544591195589,
+        "lng": 106.67208995360865
+      },
+      "quote": "Ở 191 Hùng Vương (Quận 5), hẻm xe hơi"
+    }
+  },
+  "P043": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4000000
+      },
+      "quote": "Giá: 4tr/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 2,
+        "elevator": true
+      },
+      "quote": "Tầng 2, có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Tự do giờ giấc, có vân tay"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nuôi pet"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "195 Âu Cơ, Tân Bình",
+        "lat": 10.78967180177497,
+        "lng": 106.64449746295476
+      },
+      "quote": "Ở 195 Âu Cơ (Tân Bình), hẻm xe hơi"
+    }
+  },
+  "P044": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3800000
+      },
+      "quote": "Giá thuê 3tr8/th"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 4000
+      },
+      "quote": "Điện 4 nghìn 1 số"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "Diện tích 15m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 2,
+        "elevator": true
+      },
+      "quote": "Lầu 2 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h",
+        "free": false
+      },
+      "quote": "Khoá cửa lúc 23h"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "97 Xô Viết Nghệ Tĩnh, Bình Thạnh",
+        "lat": 10.790185083486815,
+        "lng": 106.70479262577803
+      },
+      "quote": "Ở 97 Xô Viết Nghệ Tĩnh (Bình Thạnh), hẻm xe hơi"
+    }
+  },
+  "P045": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3000000
+      },
+      "quote": "Giá 3tr bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_person",
+        "price": 120000
+      },
+      "quote": "Nước: 120.000đ/người/tháng"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 35
+      },
+      "quote": "Diện tích 35m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 4"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Phòng không có gác"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nấu ăn thoải mái"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "143 Cách Mạng Tháng 8, Quận 10",
+        "lat": 10.78782013239315,
+        "lng": 106.66207248120301
+      },
+      "quote": "Ở 143 Cách Mạng Tháng 8 (Quận 10), hẻm xe hơi"
+    }
+  },
+  "P046": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá thuê 5tr/th"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 3,
+        "elevator": false
+      },
+      "quote": "Tầng 3, đi bộ"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Có khu bếp riêng, nấu ăn được"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "67 Phan Văn Trị, Gò Vấp",
+        "lat": 10.837780590742252,
+        "lng": 106.6692241575193
+      },
+      "quote": "67 Phan Văn Trị, Gò Vấp"
+    }
+  },
+  "P047": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá thuê 5tr/th"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Nước tính theo đồng hồ riêng"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 18
+      },
+      "quote": "Diện tích 18m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 3,
+        "elevator": false
+      },
+      "quote": "Lầu 3 (không thang máy)"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "120 Phan Xích Long, Phú Nhuận",
+        "lat": 10.808018269798538,
+        "lng": 106.68237125274749
+      },
+      "quote": "Ở 120 Phan Xích Long (Phú Nhuận), hẻm xe hơi"
+    }
+  },
+  "P048": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3200000
+      },
+      "quote": "Giá chỉ 3.200.000đ/tháng"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao điện nước"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao điện nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 30
+      },
+      "quote": "DT: 30m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi thú cưng"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "106 Đặng Văn Bi, Thủ Đức",
+        "lat": 10.880712906853818,
+        "lng": 106.78444585935657
+      },
+      "quote": "Địa chỉ: 106 Đặng Văn Bi, Thủ Đức"
+    }
+  },
+  "P049": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2200000
+      },
+      "quote": "Thuê: 2tr2"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 30
+      },
+      "quote": "DT: 30m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Phòng không có gác"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Giờ giấc tự do 24/24"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Gần ĐH Y Dược TP.HCM",
+        "near": "ĐH Y Dược TP.HCM"
+      },
+      "quote": "Gần ĐH Y Dược TP.HCM"
+    }
+  },
+  "P050": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao điện nước"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao điện nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "none"
+      },
+      "quote": "Chính chủ, miễn trung gian"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 35
+      },
+      "quote": "DT: 35m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": true
+      },
+      "quote": "Lầu 5 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi thú cưng"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Cách ĐH Bách Khoa TP.HCM vài phút",
+        "near": "ĐH Bách Khoa TP.HCM"
+      },
+      "quote": "Cách ĐH Bách Khoa TP.HCM vài phút"
+    }
+  },
+  "P051": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3000000
+      },
+      "quote": "Giá chỉ 3.000.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_person",
+        "price": 80000
+      },
+      "quote": "nước 80k/ng"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 100000
+      },
+      "quote": "Gửi xe 100k/tháng"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Wifi miễn phí"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 35
+      },
+      "quote": "Phòng 35m²"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 2,
+        "elevator": true
+      },
+      "quote": "Lầu 2 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác lửng"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h",
+        "free": false
+      },
+      "quote": "Giờ giấc tự do đến 23h"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "17 Trường Chinh, Tân Bình",
+        "lat": 10.786525473332029,
+        "lng": 106.64151796282604
+      },
+      "quote": "17 Trường Chinh, Tân Bình"
+    }
+  },
+  "P052": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2800000
+      },
+      "quote": "Giá chỉ 2.800.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 200000
+      },
+      "quote": "Giữ xe 200k"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 2,
+        "elevator": true
+      },
+      "quote": "Lầu 2 – toà nhà có thang máy"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h30",
+        "free": false
+      },
+      "quote": "Cổng đóng 23h30"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "73 Phan Văn Hân, Bình Thạnh",
+        "lat": 10.79897296642228,
+        "lng": 106.71279980401312
+      },
+      "quote": "73 Phan Văn Hân, Bình Thạnh"
+    }
+  },
+  "P053": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4000000
+      },
+      "quote": "Giá 4tr bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Wifi miễn phí"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 1,
+        "elevator": false
+      },
+      "quote": "Tầng 1, đi bộ"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Gần ĐH Bách Khoa TP.HCM",
+        "near": "ĐH Bách Khoa TP.HCM"
+      },
+      "quote": "Gần ĐH Bách Khoa TP.HCM"
+    }
+  },
+  "P054": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5500000
+      },
+      "quote": "Giá chỉ 5.500.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Nước theo đồng hồ"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 2
+      },
+      "quote": "Cọc 2 tháng là dọn vào ở"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 18
+      },
+      "quote": "Rộng 18 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Có gác đúc"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Ngay khu Chợ Bến Thành, đi bộ tới trường",
+        "near": "Chợ Bến Thành"
+      },
+      "quote": "Ngay khu Chợ Bến Thành, đi bộ tới trường"
+    }
+  },
+  "P055": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao trọn gói điện nước"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao trọn gói điện nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao wifi tốc độ cao"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": false
+      },
+      "quote": "Lầu 4 (không thang máy)"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "100 Huỳnh Văn Bánh, Phú Nhuận",
+        "lat": 10.798574976530094,
+        "lng": 106.67458573526405
+      },
+      "quote": "100 Huỳnh Văn Bánh, Phú Nhuận"
+    }
+  },
+  "P056": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá 5tr bao gồm phí quản lý"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao phí dịch vụ"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Rộng 28 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 1,
+        "elevator": false
+      },
+      "quote": "Tầng 1, đi bộ"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Có khu bếp riêng, nấu ăn được"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "22h30",
+        "free": false
+      },
+      "quote": "Giờ giấc tự do đến 22h30"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "143 Tô Vĩnh Diện, Thủ Đức",
+        "lat": 10.86235972158099,
+        "lng": 106.78481523747521
+      },
+      "quote": "143 Tô Vĩnh Diện, Thủ Đức"
+    }
+  },
+  "P057": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4000000
+      },
+      "quote": "Giá thuê 4tr/th"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao điện"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_person",
+        "price": 120000
+      },
+      "quote": "Nước 120k/người"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 200000
+      },
+      "quote": "Phí xe 200k/th"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Wifi miễn phí"
+    },
+    "rac_dichvu": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao phí dịch vụ"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Diện tích 22m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 1,
+        "elevator": false
+      },
+      "quote": "Lầu 1 (không thang máy)"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Cho nấu ăn thoải mái"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "208 Điện Biên Phủ, Quận 3",
+        "lat": 10.764104824383393,
+        "lng": 106.67614759139947
+      },
+      "quote": "208 Điện Biên Phủ, Quận 3"
+    }
+  },
+  "P058": {
+    "gia_thue": {
+      "status": "not_mentioned"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao trọn gói điện nước"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao trọn gói điện nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "Diện tích 15m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "23h30",
+        "free": false
+      },
+      "quote": "Cổng đóng 23h30"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Nuôi thú cưng được"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "239 An Dương Vương, Quận 5",
+        "lat": 10.751540046381155,
+        "lng": 106.66419498702487
+      },
+      "quote": "Địa chỉ: 239 An Dương Vương, Quận 5"
+    }
+  },
+  "P059": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2500000
+      },
+      "quote": "Giá: 2tr5/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "none"
+      },
+      "quote": "Không phí môi giới"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Phòng không có gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi thú cưng"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "72 Bàu Cát, Tân Bình",
+        "lat": 10.78446836808758,
+        "lng": 106.64959909262613
+      },
+      "quote": "72 Bàu Cát, Tân Bình"
+    }
+  },
+  "P060": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5000000
+      },
+      "quote": "Giá thuê 5tr/th"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao điện nước"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Bao điện nước"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Wifi miễn phí"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Rộng 22 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 5,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 5"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Không gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "247 Phan Văn Hân, Bình Thạnh",
+        "lat": 10.80097006517572,
+        "lng": 106.70221131297971
+      },
+      "quote": "Ở 247 Phan Văn Hân (Bình Thạnh), hẻm xe hơi"
+    }
+  },
+  "P061": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3800000
+      },
+      "quote": "Giá thuê 3tr8/th"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Rộng 28 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 3,
+        "elevator": false
+      },
+      "quote": "Tầng 3, đi bộ"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Phòng không có gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "97 Lê Đức Thọ, Gò Vấp",
+        "lat": 10.84610381692189,
+        "lng": 106.67010858687952
+      },
+      "quote": "97 Lê Đức Thọ, Gò Vấp"
+    }
+  },
+  "P062": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 5500000
+      },
+      "quote": "Giá chỉ 5.500.000đ/tháng"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện nước giá dân"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện nước giá dân"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Phòng 20m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Giờ giấc tự do 24/24"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "161 Nguyễn Cửu Vân, Bình Thạnh",
+        "lat": 10.785829284343606,
+        "lng": 106.70257710042696
+      },
+      "quote": "Ở 161 Nguyễn Cửu Vân (Bình Thạnh), hẻm xe hơi"
+    }
+  },
+  "P063": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3200000
+      },
+      "quote": "Giá thuê 3tr2/th"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Phòng 22m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Phòng không có gác"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Được nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "74 Trần Hưng Đạo, Quận 5",
+        "lat": 10.765636884624543,
+        "lng": 106.673835100634
+      },
+      "quote": "74 Trần Hưng Đạo, Quận 5"
+    }
+  },
+  "P064": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3200000
+      },
+      "quote": "Giá chỉ 3.200.000đ/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Wifi miễn phí"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "DT: 15m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": true
+      },
+      "quote": "Có khu bếp riêng, nấu ăn được"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi chó mèo"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "112 Tô Vĩnh Diện, Thủ Đức",
+        "lat": 10.877566854472905,
+        "lng": 106.78550575180384
+      },
+      "quote": "Ở 112 Tô Vĩnh Diện (Thủ Đức), hẻm xe hơi"
+    }
+  },
+  "P065": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 3500000
+      },
+      "quote": "Giá chỉ 3.500.000đ/tháng"
+    },
+    "dien": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_kwh",
+        "price": 4000
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi + nước, điện 4k"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "months",
+        "n": 0.5
+      },
+      "quote": "Phí dịch vụ môi giới 0.5 tháng tiền thuê"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 15
+      },
+      "quote": "DT: 15m2"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "22h30",
+        "free": false
+      },
+      "quote": "Cổng đóng 22h30"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi thú cưng"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "80 Nguyễn Oanh, Gò Vấp",
+        "lat": 10.829961945598724,
+        "lng": 106.66326243430593
+      },
+      "quote": "Ở 80 Nguyễn Oanh (Gò Vấp), hẻm xe hơi"
+    }
+  },
+  "P066": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2200000
+      },
+      "quote": "Giá: 2tr2/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 22
+      },
+      "quote": "Rộng 22 mét vuông"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_ambiguous",
+      "value": {
+        "text": "Ngay khu ĐH Khoa học Tự nhiên, đi bộ tới trường",
+        "near": "ĐH Khoa học Tự nhiên"
+      },
+      "quote": "Ngay khu ĐH Khoa học Tự nhiên, đi bộ tới trường"
+    }
+  },
+  "P067": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2800000
+      },
+      "quote": "Giá: 2tr8/tháng"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Điện nước tính theo công tơ riêng"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "unknown_meter"
+      },
+      "quote": "Điện nước tính theo công tơ riêng"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": false
+      },
+      "quote": "Tầng 4, đi bộ"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Phòng có gác rộng để đồ"
+    },
+    "nau_an": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nấu ăn"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": "0h",
+        "free": false
+      },
+      "quote": "Giờ giấc tự do đến 0h"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "144 An Dương Vương, Quận 5",
+        "lat": 10.754133321589386,
+        "lng": 106.66360297144371
+      },
+      "quote": "Ở 144 An Dương Vương (Quận 5), hẻm xe hơi"
+    }
+  },
+  "P068": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 4500000
+      },
+      "quote": "Giá: 4tr5/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "not_mentioned"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "not_mentioned"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 28
+      },
+      "quote": "Diện tích 28m2"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 2,
+        "elevator": false
+      },
+      "quote": "Lầu 2 (không thang máy)"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": true
+      },
+      "quote": "Phòng có gác rộng để đồ"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "160 Hoàng Diệu 2, Thủ Đức",
+        "lat": 10.865640678508317,
+        "lng": 106.80074449906884
+      },
+      "quote": "Địa chỉ: 160 Hoàng Diệu 2, Thủ Đức"
+    }
+  },
+  "P069": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 2200000
+      },
+      "quote": "2tr2/tháng"
+    },
+    "dien": {
+      "status": "not_mentioned"
+    },
+    "nuoc": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_person",
+        "price": 100000
+      },
+      "quote": "Nước: 100.000đ/người/tháng"
+    },
+    "gui_xe": {
+      "status": "not_mentioned"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "stated_value",
+      "value": {
+        "m2": 20
+      },
+      "quote": "Phòng 20m²"
+    },
+    "tang_thang_may": {
+      "status": "not_mentioned"
+    },
+    "gac_lung": {
+      "status": "stated_value",
+      "value": {
+        "has": false
+      },
+      "quote": "Phòng không có gác"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "stated_value",
+      "value": {
+        "time": null,
+        "free": true
+      },
+      "quote": "Giờ giấc tự do 24/24"
+    },
+    "thu_cung": {
+      "status": "not_mentioned"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "38 Phan Văn Trị, Gò Vấp",
+        "lat": 10.839364724835894,
+        "lng": 106.6705765845289
+      },
+      "quote": "38 Phan Văn Trị, Gò Vấp"
+    }
+  },
+  "P070": {
+    "gia_thue": {
+      "status": "stated_value",
+      "value": {
+        "amount": 6000000
+      },
+      "quote": "Giá chỉ 6.000.000đ/tháng"
+    },
+    "dien": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện nước giá dân"
+    },
+    "nuoc": {
+      "status": "stated_ambiguous",
+      "value": {
+        "mode": "state_price"
+      },
+      "quote": "Điện nước giá dân"
+    },
+    "gui_xe": {
+      "status": "stated_value",
+      "value": {
+        "mode": "per_month",
+        "price": 120000
+      },
+      "quote": "Gửi xe 120k/tháng"
+    },
+    "wifi": {
+      "status": "stated_value",
+      "value": {
+        "mode": "included"
+      },
+      "quote": "Free wifi"
+    },
+    "rac_dichvu": {
+      "status": "not_mentioned"
+    },
+    "coc": {
+      "status": "not_mentioned"
+    },
+    "phi_moi_gioi": {
+      "status": "not_mentioned"
+    },
+    "dien_tich": {
+      "status": "not_mentioned"
+    },
+    "tang_thang_may": {
+      "status": "stated_value",
+      "value": {
+        "floor": 4,
+        "elevator": false
+      },
+      "quote": "Phòng ở tầng 4"
+    },
+    "gac_lung": {
+      "status": "not_mentioned"
+    },
+    "nau_an": {
+      "status": "not_mentioned"
+    },
+    "gio_khoa_cua": {
+      "status": "not_mentioned"
+    },
+    "thu_cung": {
+      "status": "stated_value",
+      "value": {
+        "allowed": false
+      },
+      "quote": "Không nuôi chó mèo"
+    },
+    "dia_chi": {
+      "status": "stated_value",
+      "value": {
+        "text": "142 Phan Văn Hân, Bình Thạnh",
+        "lat": 10.78950556571307,
+        "lng": 106.70546838931155
+      },
+      "quote": "142 Phan Văn Hân, Bình Thạnh"
+    }
+  }
+}

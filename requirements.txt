@@ -1,5 +1,10 @@
-google-genai
-openai
-anthropic
 python-dotenv
 requests
+
+# Provider LLM - chi can cai goi cua provider ban dung trong .env
+openai
+google-genai
+anthropic
+
+# Sinh 70 anh minh hoa cho bo du lieu bai dang (chay offline)
+pillow
