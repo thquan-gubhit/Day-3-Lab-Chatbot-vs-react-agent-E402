@@ -2,31 +2,61 @@
   {
     "id": 1,
     "category": "🟢 Đơn giản (Chỉ cần LLM)",
-    "question": "Thủ đô của Việt Nam là gì?",
-    "expected_behavior": "Chatbot trả lời trực tiếp từ kiến thức có sẵn."
+    "question": "Nên thuê nhà trọ hay căn hộ nếu tôi là sinh viên?",
+    "expected_behavior": "Agent trả lời dựa trên kiến thức chung, so sánh ưu và nhược điểm mà không cần gọi tool."
   },
   {
     "id": 2,
     "category": "🟢 Đơn giản (Chỉ cần LLM)",
-    "question": "Nêu 3 lời khuyên để học tốt lập trình.",
-    "expected_behavior": "Chatbot trả lời trực tiếp từ kiến thức có sẵn."
+    "question": "Khi đi xem phòng trọ tôi nên kiểm tra những gì?",
+    "expected_behavior": "Agent đưa ra checklist kiểm tra như hợp đồng, điện nước, an ninh, nội thất... mà không cần gọi tool."
   },
   {
     "id": 3,
-    "category": "🟡 Multi-step (Cần Tool)",
-    "question": "Thời tiết ở Hà Nội hôm nay thế nào và tôi nên mặc gì đi chơi?",
-    "expected_behavior": "Agent gọi tool get_weather('Hà Nội') rồi suy luận trang phục."
+    "category": "🟡 Multi-step (Search)",
+    "question": "Tìm cho tôi căn hộ 1 phòng ngủ dưới 8 triệu ở Cầu Giấy.",
+    "expected_behavior": "Agent gọi tool search_listing() và trả về danh sách căn hộ phù hợp."
   },
   {
     "id": 4,
-    "category": "🟡 Multi-step (Cần gọi 2 Tools)",
-    "question": "Kiểm tra vé máy bay từ TP.HCM đi Hà Nội ngày mai và dự báo thời tiết ở Hà Nội.",
-    "expected_behavior": "Agent gọi tool search_flights và get_weather để trả lời đầy đủ."
+    "category": "🟡 Multi-step (Search + Detail)",
+    "question": "Cho tôi xem thông tin chi tiết căn hộ A102.",
+    "expected_behavior": "Agent gọi tool get_listing_detail() và trả về diện tích, giá, nội thất, tiện ích và trạng thái căn hộ."
   },
   {
     "id": 5,
-    "category": "🔴 Edge Case (Bẫy Guardrail)",
-    "question": "Tra cứu thời tiết ở thành phố Atlantis ngày 32/13/2026.",
-    "expected_behavior": "Tool báo lỗi tham số/thất bại, Guardrail ngắt sau 3 bước và trả về thông báo lịch sự."
+    "category": "🟠 Multi-step (Booking)",
+    "question": "Đặt lịch xem căn hộ A102 vào chiều mai lúc 15:00.",
+    "expected_behavior": "Agent gọi booking_tool(). Tool tự kiểm tra trạng thái căn hộ rồi tạo booking nếu còn trống."
+  },
+  {
+    "id": 6,
+    "category": "🟠 Multi-step (Recommendation)",
+    "question": "Nếu căn hộ A103 đã được thuê thì hãy gợi ý cho tôi những căn tương tự.",
+    "expected_behavior": "Agent gọi get_listing_detail() để xác định trạng thái. Nếu căn hộ đã thuê thì gọi similar_listing() để đề xuất các lựa chọn thay thế."
+  },
+  {
+    "id": 7,
+    "category": "🟠 Multi-step (Comparison)",
+    "question": "So sánh giúp tôi căn hộ A101 và B202, căn nào phù hợp hơn với ngân sách 8 triệu?",
+    "expected_behavior": "Agent gọi get_listing_detail() cho từng căn, sau đó suy luận để so sánh và đưa ra khuyến nghị."
+  },
+  {
+    "id": 8,
+    "category": "🔴 Edge Case (Invalid Listing)",
+    "question": "Cho tôi xem thông tin căn hộ X9999.",
+    "expected_behavior": "Tool get_listing_detail() trả về lỗi không tìm thấy căn hộ, Agent thông báo lịch sự và gợi ý tìm kiếm căn khác."
+  },
+  {
+    "id": 9,
+    "category": "🔴 Edge Case (Invalid Date)",
+    "question": "Đặt lịch xem căn hộ A102 vào ngày 32/13/2026.",
+    "expected_behavior": "booking_tool() hoặc Agent phát hiện ngày không hợp lệ và yêu cầu người dùng nhập lại."
+  },
+  {
+    "id": 10,
+    "category": "🔴 Edge Case (Cancel Booking)",
+    "question": "Hủy lịch xem nhà có mã BK001.",
+    "expected_behavior": "Agent gọi cancel_booking() và trả về trạng thái hủy lịch thành công."
   }
 ]
