@@ -1,0 +1,62 @@
+%% ═══════════════════════════════════════════════════════════════════
+%% HYBRID DECISION FLOWCHART — khi nào đi Chatbot, khi nào đi ReAct Agent
+%% Nhóm E402 · Đề tài #10 — Trợ lý so sánh phòng trọ
+%%
+%% Sơ đồ này KHÔNG vẽ cho đủ artifact. Nó sinh ra từ một mâu thuẫn có thật:
+%% Lab Day 02 nhóm đã kết luận bài toán này chỉ cần mức WORKFLOW, KHÔNG cần
+%% Agent. Day 03 lại yêu cầu dựng ReAct Agent. Nhóm không vứt kết luận cũ đi
+%% mà tách phạm vi — và chính việc tách đó đẻ ra ba nhánh dưới đây.
+%% ═══════════════════════════════════════════════════════════════════
+
+flowchart TD
+    Q["❓ Câu hỏi của người dùng"] --> R{"Câu hỏi có cần<br/>DỮ LIỆU TỪ BÀI ĐĂNG<br/>mới trả lời được không?"}
+
+    %% ─────────── NHÁNH 1: CHATBOT ───────────
+    R -->|"KHÔNG — kiến thức chung<br/>'cọc mấy tháng là hợp lý?'<br/>'điện giá nhà nước là gì?'"| C1["💬 CHATBOT PATH<br/>1 LLM call · 0 tool"]
+    C1 --> C2["Trả lời ngay từ kiến thức LLM"]
+    C2 --> OUT
+
+    %% ─────────── NHÁNH 2: WORKFLOW ───────────
+    R -->|"CÓ, và là xử lý HÀNG LOẠT<br/>cả kho 70 bài, luồng cố định"| W1{"Luồng có cố định<br/>từ đầu đến cuối không?"}
+    W1 -->|"CÓ"| W2["⚙️ WORKFLOW PATH<br/>(kết luận Day 02)"]
+    W2 --> W3["gom → gộp trùng → TRÍCH 15 FIELD (AI)<br/>→ cộng tổng (Rule) → bảng (Rule)"]
+    W3 --> W4["Mỗi bài xử lý ĐỘC LẬP.<br/>Không cần agent tự quyết bước kế tiếp.<br/>Dùng thẳng extractor.py, KHÔNG qua ReAct loop"]
+    W4 --> OUT
+
+    %% ─────────── NHÁNH 3: REACT AGENT ───────────
+    W1 -->|"KHÔNG — số bước phụ thuộc<br/>kết quả bước trước"| A1{"Cần phối hợp<br/>nhiều tool và<br/>tự chọn tool nào?"}
+    R -->|"CÓ, hội thoại tự do<br/>'tìm phòng &lt;3.5tr gần ĐH BK<br/>rồi tính tổng thực tế'"| A1
+    A1 -->|"CÓ"| A2["🧠 REACT AGENT PATH<br/>Thought → Action → Observation"]
+    A2 --> A3["search_listings → extract_listing_fields<br/>→ compute_total_cost → compare_listings<br/>→ draft_question_message"]
+    A3 --> G{"🛡️ GUARDRAILS"}
+
+    G -->|"lặp cùng 1 action > 2 lần"| GB1["Ngắt · thông báo lịch sự"]
+    G -->|"chạm MAX_ITERATIONS = 8"| GB2["Ngắt · nêu bằng chứng đã có"]
+    G -->|"tool trả 'LỖI:'"| GB3["Agent tự đổi hướng<br/>KHÔNG gọi lại y hệt"]
+    G -->|"Observation chứa câu ra lệnh cho AI"| GB4["Vô hiệu hoá injection<br/>báo người dùng"]
+    G -->|"đủ bằng chứng"| A4["Final Answer<br/>mọi con số kèm trích nguyên văn"]
+
+    GB1 --> OUT
+    GB2 --> OUT
+    GB3 --> A2
+    GB4 --> A2
+    A4 --> OUT
+
+    OUT["📤 Trả lời người dùng"] --> HB
+
+    %% ─────────── RANH GIỚI NGƯỜI / MÁY ───────────
+    HB{"Việc tiếp theo là<br/>HÀNH ĐỘNG ra thế giới thật?"}
+    HB -->|"nhắn môi giới · đặt lịch xem<br/>· đặt cọc · ký hợp đồng"| HUMAN["🛑 HUMAN BOUNDARY<br/>Registry KHÔNG có tool cho việc này.<br/>Bot chỉ SOẠN SẴN tin nhắn,<br/>NGƯỜI tự gửi, tự đi xem, tự quyết"]
+    HB -->|"chỉ đọc và trình bày số liệu"| DONE["✅ Kết thúc"]
+
+    classDef chatbot fill:#d8ecff,stroke:#0366d6,stroke-width:2px
+    classDef workflow fill:#e8e0ff,stroke:#6f42c1,stroke-width:2px
+    classDef agent fill:#d6f5d6,stroke:#28a745,stroke-width:3px
+    classDef guard fill:#fff3cd,stroke:#e08a00,stroke-width:2px
+    classDef human fill:#ffd6d6,stroke:#cc0000,stroke-width:3px
+
+    class C1,C2 chatbot
+    class W2,W3,W4 workflow
+    class A2,A3,A4 agent
+    class G,GB1,GB2,GB3,GB4 guard
+    class HUMAN human

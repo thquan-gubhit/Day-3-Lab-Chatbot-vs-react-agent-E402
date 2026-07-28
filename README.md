@@ -69,5 +69,69 @@ timeline
 
 ---
 
+### 🏠 5. BÀI LÀM CỦA NHÓM E402 — TRỢ LÝ SO SÁNH PHÒNG TRỌ (Đề tài #10)
+
+**Bài toán:** người đi thuê trọ không so sánh được các phòng với nhau, vì bài đăng
+nằm rải rác trên Facebook/Zalo và gần như không bài nào ghi đủ các khoản chi phí —
+nên họ phải đi xem 6–10 phòng mới loại được những phòng lẽ ra đã loại được từ đầu.
+*(Kế thừa Problem Statement v1 đã chốt ở Lab Day 02.)*
+
+#### Cài đặt & chạy
+
+```bash
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+copy .env.example .env
+```
+
+Điền `OPENAI_API_KEY` vào `.env`, rồi:
+
+```bash
+python src/data_gen/generate_dataset.py
+```
+
+```bash
+python src/data_gen/warm_cache.py
+```
+
+```bash
+python src/app.py
+```
+
+| Lệnh | Chạy gì |
+| :--- | :--- |
+| `python src/app.py` | Demo so sánh Chatbot (Cấp 2) vs ReAct Agent (Cấp 3) |
+| `python src/app.py --chat` | Hội thoại nhiều lượt, có Memory |
+| `python src/app.py --case 8` | Chạy đúng 1 test case (case 8 = prompt injection) |
+| `python src/app.py --auto` | 🎁 Bonus Cấp 4 — Planning + Memory |
+| `python src/eval/run_eval.py` | Chấm điểm định lượng toàn bộ, xuất `docs/eval_results/` |
+
+#### Kết quả đo được
+
+| Chỉ số | Kết quả |
+| :--- | :---: |
+| 🔴 **M4 — số ô Agent bịa số** (ngưỡng nhóm đặt: **0 tuyệt đối**) | **0/1050 ô** |
+| Khớp trạng thái ô (70 bài × 15 field) | 97,0 % |
+| Khớp giá trị số | 98,7 % |
+| Test case không vi phạm điều cấm | 12/12 |
+| **Ca tấn công chặn được** | **8/8** |
+
+#### Bộ dữ liệu
+
+70 bài đăng văn phong Facebook + 70 ảnh, **sinh 100% offline** kèm **gold label**
+70 × 15 field — không có gold label thì không đo được M4. Tỉ lệ thiếu field được
+hiệu chỉnh khớp phép đo thật *n=20 tin trên phongtro123.com* ở Day 02.
+Cố ý cài sẵn: 8 bài giá chỉ nằm trong ảnh · 10 bài trùng lệch giá · 4 bài đã cho
+thuê · **2 bài chứa prompt injection** · 6 cách viết tiền điện khác nhau.
+
+#### Đọc báo cáo
+
+📊 [`docs/trace_eval.md`](docs/trace_eval.md) — scoring matrix, trace log, RCA đưa
+M4 từ 12 → 0, và biên bản 7 ca tấn công.
+🔀 [`docs/hybrid_flowchart.mermaid`](docs/hybrid_flowchart.mermaid) — 3 nhánh Chatbot / Workflow / ReAct.
+
+---
+
 > 🚀 **BẮT ĐẦU LÀM BÀI**:
 > Vui lòng mở sổ tay thực hành 👉 **[PHAN_CONG_CONG_VIEC.md](file:///c:/Users/Admin/Documents/VinUni/LabCoachVin/LabKeyCoach/Day-3-Lab-Chatbot-vs-react-agent-E402/docs/PHAN_CONG_CONG_VIEC.md)** để xem phân vai và checklist công việc cụ thể cho từng thành viên!

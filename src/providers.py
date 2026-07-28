@@ -18,9 +18,20 @@ if sys.stdout.encoding != 'utf-8':
 
 load_dotenv()
 
+# Nhiệt độ mặc định = 0 cho TOÀN BỘ hệ thống.
+#
+# Đây là quyết định có chủ đích, không phải cấu hình cho vui: bài lab phải
+# demo lại được trước lớp và phải chấm lại được bằng cùng một bộ test case.
+# Ở temperature mặc định (1.0), cùng một bài đăng có lần trích ra tiền điện,
+# lần khác lại ra ❓ — trace log mất giá trị làm bằng chứng, và điểm eval
+# nhảy loạn giữa hai lần chạy liền nhau.
+DEFAULT_TEMPERATURE = float(os.getenv("LLM_TEMPERATURE", "0") or 0)
+
+
 class BaseLLMProvider:
     """Interface cơ sở cho tất cả các LLM Provider"""
-    def generate(self, prompt: str, system_prompt: str = "") -> str:
+    def generate(self, prompt: str, system_prompt: str = "",
+                 temperature: float = None) -> str:
         raise NotImplementedError
 
 
@@ -30,16 +41,21 @@ class GeminiProvider(BaseLLMProvider):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         self.model_name = model or os.getenv("LLM_MODEL") or "gemini-2.5-flash"
         
-    def generate(self, prompt: str, system_prompt: str = "") -> str:
+    def generate(self, prompt: str, system_prompt: str = "",
+                 temperature: float = None) -> str:
         if not self.api_key or self.api_key == "your_gemini_api_key_here":
             return "[Gemini Error]: Chưa cấu hình GEMINI_API_KEY trong file .env!"
         try:
             from google import genai
+            from google.genai import types
             client = genai.Client(api_key=self.api_key)
             contents = f"{system_prompt}\n\n{prompt}" if system_prompt else prompt
             response = client.models.generate_content(
                 model=self.model_name,
-                contents=contents
+                contents=contents,
+                config=types.GenerateContentConfig(
+                    temperature=DEFAULT_TEMPERATURE if temperature is None else temperature
+                ),
             )
             return response.text
         except Exception as e:
@@ -52,7 +68,8 @@ class OpenAIProvider(BaseLLMProvider):
         self.api_key = api_key or os.getenv("OPENAI_API_KEY")
         self.model_name = model or os.getenv("LLM_MODEL") or "gpt-4o-mini"
         
-    def generate(self, prompt: str, system_prompt: str = "") -> str:
+    def generate(self, prompt: str, system_prompt: str = "",
+                 temperature: float = None) -> str:
         if not self.api_key or self.api_key == "your_openai_api_key_here":
             return "[OpenAI Error]: Chưa cấu hình OPENAI_API_KEY trong file .env!"
         try:
@@ -62,10 +79,11 @@ class OpenAIProvider(BaseLLMProvider):
             if system_prompt:
                 messages.append({"role": "system", "content": system_prompt})
             messages.append({"role": "user", "content": prompt})
-            
+
             response = client.chat.completions.create(
                 model=self.model_name,
-                messages=messages
+                messages=messages,
+                temperature=DEFAULT_TEMPERATURE if temperature is None else temperature,
             )
             return response.choices[0].message.content
         except Exception as e:
@@ -78,7 +96,8 @@ class AnthropicProvider(BaseLLMProvider):
         self.api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
         self.model_name = model or os.getenv("LLM_MODEL") or "claude-3-haiku-20240307"
         
-    def generate(self, prompt: str, system_prompt: str = "") -> str:
+    def generate(self, prompt: str, system_prompt: str = "",
+                 temperature: float = None) -> str:
         if not self.api_key or self.api_key == "your_anthropic_api_key_here":
             return "[Anthropic Error]: Chưa cấu hình ANTHROPIC_API_KEY trong file .env!"
         try:
@@ -86,7 +105,8 @@ class AnthropicProvider(BaseLLMProvider):
             client = anthropic.Anthropic(api_key=self.api_key)
             kwargs = {
                 "model": self.model_name,
-                "max_tokens": 1000,
+                "max_tokens": 2000,
+                "temperature": DEFAULT_TEMPERATURE if temperature is None else temperature,
                 "messages": [{"role": "user", "content": prompt}]
             }
             if system_prompt:
@@ -104,7 +124,8 @@ class OpenRouterProvider(BaseLLMProvider):
         self.api_key = api_key or os.getenv("OPENROUTER_API_KEY")
         self.model_name = model or os.getenv("LLM_MODEL") or "google/gemini-2.5-flash"
         
-    def generate(self, prompt: str, system_prompt: str = "") -> str:
+    def generate(self, prompt: str, system_prompt: str = "",
+                 temperature: float = None) -> str:
         if not self.api_key or self.api_key == "your_openrouter_api_key_here":
             return "[OpenRouter Error]: Chưa cấu hình OPENROUTER_API_KEY trong file .env!"
         try:
@@ -119,7 +140,8 @@ class OpenRouterProvider(BaseLLMProvider):
             
             payload = {
                 "model": self.model_name,
-                "messages": messages
+                "messages": messages,
+                "temperature": DEFAULT_TEMPERATURE if temperature is None else temperature,
             }
             res = requests.post("https://openrouter.ai/api/v1/chat/completions", headers=headers, json=payload, timeout=30)
             if res.status_code == 200:

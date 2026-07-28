@@ -5,3 +5,6 @@ __pycache__/
 .venv/
 env/
 venv/
+
+# Cache trich xuat LLM (sinh lai bang: python src/data_gen/warm_cache.py)
+config/.cache/
